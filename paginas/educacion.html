@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hoja de Vida | Educación</title>
+</head>
+<body>
+	<header id="logo" class="">
+			<img src="../imagenes/logo.svg" alt="logo" title="logo"  height="100px">
+		<p>
+			<h1>Hoja de Vida</h1>
+		</p>
+		<p>
+			<h2>Juan Cuervo</h2>
+		</p>
+	</header><!-- /header -->
+	<nav>
+		<ul>
+			<li><a href="../index.html" title="inicio">Inicio</a></li>
+            <li><a href="#" title="educacion">Educación</a></li>
+			<li><a href="experiencia.html" title="experiencia">Experiencia</a></li>
+		</ul>
+	</nav>
+	<section>
+		<article name="Educacion">
+			<h2>Educación</h2>
+			<table border="1" cellspacing="0" cellpadding="5">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2008</td>
+						<td>Colegio San Mateo</td>
+						<td>Soacha</td>
+						<td>Culminado</td>
+					</tr>
+					<tr>
+						<td>2017</td>
+						<td>Universidad Minuto de Dios</td>
+						<td>Bogotá</td>
+						<td>Culminado</td>
+					</tr>
+					<tr>
+						<td>2017</td>
+						<td>NEXT University</td>
+						<td>Bogotá</td>
+						<td>En Curso</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+		<article name="Agregar">
+		<br><br>	
+			<form>
+				<strong>
+				<fieldset>
+					<legend>Agregar Estudios</legend>
+					<p>
+						<label>Año</label>
+						<select name="año">
+							<option></option>
+							<option>2017</option>
+							<option>2016</option>
+							<option>2015</option>
+							<option>2014</option>
+							<option>2013</option>
+							<option>2012</option>
+							<option>2011</option>
+							<option>2010</option>
+							<option>2009</option>
+						</select>
+					</p>
+					<p>
+						<label for="institucion">Institución</label>
+						<input type="text" autofocus required placeholder="Ej: NEXT_U">
+					</p>
+					<p>
+						<label for="lugar">Lugar</label>
+						<textarea name="lugar" required></textarea>
+					</p>
+					<p>
+						<label for="culmino">¿Culminó?</label>
+					</strong>
+						<input type="radio" name="si">si
+						<input type="radio" name="no">no
+					</p>
+					<input type="submit" name="enviar" value="enviar">
+				</fieldset>
+			</form>
+		</article>
+	</section>
+	<footer>
+		<h2>Datos de Contacto</h2>
+		<ul>
+			<li>cjuancho02@gmail.com</li>
+			<li>Tel. 3115480351</li>
+			<li>Carrera 68C 3 71 sur Floresta Sur</li>
+		</ul>
+	</footer>
+</body>
+</html>
